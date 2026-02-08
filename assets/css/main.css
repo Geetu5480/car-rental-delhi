@@ -33,10 +33,11 @@
 }
 
 @layer components {
+
   /* Glassmorphism card */
   .glass-card {
     @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
-    box-shadow: 
+    box-shadow:
       0 8px 32px rgba(0, 0, 0, 0.4),
       inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
@@ -83,10 +84,29 @@
 
 @layer utilities {
   .text-shadow {
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+    text-shadow:
+      0 2px 10px rgba(0, 0, 0, 0.9),
+      0 4px 30px rgba(0, 0, 0, 0.8),
+      0 8px 40px rgba(0, 0, 0, 0.6);
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-white via-white/90 to-white/80 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-white via-white to-white/95 bg-clip-text text-transparent;
+  }
+
+  /* Mobile text enhancement */
+  @media (max-width: 768px) {
+    .scroll-text-left {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 70%, transparent 100%);
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .text-shadow {
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 1),
+        0 4px 20px rgba(0, 0, 0, 0.9),
+        0 8px 30px rgba(0, 0, 0, 0.7);
+    }
   }
 }

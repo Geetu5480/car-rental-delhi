@@ -648,7 +648,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "69e3dace-8cd1-496a-a5d2-f804e8e8e41a",
+    "buildId": "d41e7e3a-d3ae-4f55-ae66-678d334f7897",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -1079,7 +1079,7 @@ const _n3fpIk = eventHandler((event) => {
 
 const _SxA8c9 = defineEventHandler(() => {});
 
-const _lazy_jbWTlK = () => import('../_/renderer.mjs');
+const _lazy_jbWTlK = () => import('../_/renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _n3fpIk, lazy: false, middleware: true, method: undefined },

@@ -13,13 +13,13 @@ export default defineNuxtConfig({
 
     app: {
         head: {
-            title: 'Premium Honda City Rental with Driver',
+            title: 'Premium Sedan Car Rental with Driver | Delhi NCR',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
                     name: 'description',
-                    content: 'Experience executive comfort with our premium Honda City rental service. Professional drivers, corporate travel, airport transfers, and special events.',
+                    content: 'Book premium sedan with professional driver in Delhi NCR. Airport transfers, corporate travel, outstation trips. 24/7 service. Starting ₹2,999.',
                 },
                 { name: 'theme-color', content: '#0a0a0a' },
             ],

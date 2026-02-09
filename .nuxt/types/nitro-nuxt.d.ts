@@ -3,7 +3,7 @@
 /// <reference path="app.config.d.ts" />
 /// <reference path="runtime-config.d.ts" />
 /// <reference types="/home/gaurav/Documents/car rental/website/node_modules/@nuxt/nitro-server/dist/index.mjs" />
-/// <reference path="middleware.d.ts" />
+/// <reference path="nitro-middleware.d.ts" />
 /// <reference path="./schema.d.ts" />
 
 import type { RuntimeConfig } from 'nuxt/schema'

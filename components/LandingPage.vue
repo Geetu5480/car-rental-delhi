@@ -6,18 +6,7 @@
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3">
           <div class="w-10 h-10 relative">
-            <svg viewBox="0 0 40 40" fill="none" class="w-full h-full">
-              <rect x="4" y="4" width="32" height="32" rx="8" fill="url(#logoGradient)" />
-              <path d="M12 22C12 19 15 16 20 16C25 16 28 19 28 22" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
-              <circle cx="14" cy="24" r="2" fill="#1a1a1a"/>
-              <circle cx="26" cy="24" r="2" fill="#1a1a1a"/>
-              <defs>
-                <linearGradient id="logoGradient" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#c9a962"/>
-                  <stop offset="1" stop-color="#a88c3f"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="/images/logo.svg" alt="Car Rental Delhi Logo" class="w-full h-full object-contain" />
           </div>
           <div>
             <span class="text-lg font-bold text-white">Car Rental Delhi</span>
@@ -175,18 +164,7 @@
           <div>
             <div class="flex items-center gap-3 mb-4">
               <div class="w-8 h-8">
-                <svg viewBox="0 0 40 40" fill="none" class="w-full h-full">
-                  <rect x="4" y="4" width="32" height="32" rx="8" fill="url(#footerLogo)" />
-                  <path d="M12 22C12 19 15 16 20 16C25 16 28 19 28 22" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
-                  <circle cx="14" cy="24" r="2" fill="#1a1a1a"/>
-                  <circle cx="26" cy="24" r="2" fill="#1a1a1a"/>
-                  <defs>
-                    <linearGradient id="footerLogo" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#c9a962"/>
-                      <stop offset="1" stop-color="#a88c3f"/>
-                    </linearGradient>
-                  </defs>
-                </svg>
+                <img src="/images/logo.svg" alt="Car Rental Delhi Logo" class="w-full h-full object-contain" />
               </div>
               <span class="font-bold text-white">Car Rental Delhi</span>
             </div>

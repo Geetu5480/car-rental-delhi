@@ -149,15 +149,7 @@
           </div>
         </div>
 
-        <!-- Outstation Destinations -->
-        <div class="mt-16 glass-card p-8">
-          <h3 class="text-2xl font-bold text-white mb-6 text-center">Popular Outstation Routes from Delhi</h3>
-          <div class="flex flex-wrap justify-center gap-3">
-            <span v-for="city in outstationCities" :key="city" class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white/70 text-sm hover:bg-accent/10 hover:border-accent/30 hover:text-white transition-all cursor-default">
-              {{ city }}
-            </span>
-          </div>
-        </div>
+
       </div>
     </section>
 
@@ -610,11 +602,7 @@ const services = [
   },
 ]
 
-// Outstation destinations
-const outstationCities = [
-  'Jaipur', 'Agra', 'Rishikesh', 'Haridwar', 'Dehradun', 'Mussoorie', 
-  'Nainital', 'Jim Corbett', 'Mathura', 'Vrindavan', 'Chandigarh', 'Shimla'
-]
+
 
 // Value propositions
 const valueProps = [

@@ -727,7 +727,13 @@ const openWhatsApp = () => {
   
   message += `\nPlease share availability, package options, and fare details. Thank you!`
 
-  window.open(`https://wa.me/${WHATSAPP_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+  const url = `https://wa.me/${WHATSAPP_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`
+  
+  if (typeof (window as any).gtag_report_conversion === 'function') {
+    (window as any).gtag_report_conversion()
+  }
+
+  window.open(url, '_blank')
 }
 
 // Scroll to booking section (mobile)

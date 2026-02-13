@@ -261,7 +261,15 @@ const schemaMarkup = computed(() => JSON.stringify({
 
 const openWhatsApp = () => {
   const message = `🚗 *Booking Inquiry*\n\nHi, I'm interested in ${props.serviceBadge}.\n\nPlease share availability and pricing details. Thank you!`
-  window.open(`https://wa.me/${props.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+  const url = `https://wa.me/${props.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`
+  
+  // Google Ads Conversion Tracking
+  // We call this without URL to track the event but handle navigation ourselves (lazy loading/new tab)
+  if (typeof (window as any).gtag_report_conversion === 'function') {
+    (window as any).gtag_report_conversion()
+  }
+  
+  window.open(url, '_blank')
 }
 </script>
 

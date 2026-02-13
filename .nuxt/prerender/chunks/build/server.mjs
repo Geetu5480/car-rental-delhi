@@ -409,102 +409,102 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DFgG18gF.mjs')
+    component: () => import('./index-CMo9t5gI.mjs')
   },
   {
     name: "hire-dwarka",
     path: "/hire/dwarka",
-    component: () => import('./dwarka-Bq2k6Obr.mjs')
+    component: () => import('./dwarka-Cm2Fy-pH.mjs')
   },
   {
     name: "airport-delhi",
     path: "/airport/delhi",
-    component: () => import('./delhi-BRRD-qpk.mjs')
+    component: () => import('./delhi-CAjeoPOQ.mjs')
   },
   {
     name: "corporate-noida",
     path: "/corporate/noida",
-    component: () => import('./noida-BDOR9-9q.mjs')
+    component: () => import('./noida-CdsvGbNl.mjs')
   },
   {
     name: "airport-to-noida",
     path: "/airport/to-noida",
-    component: () => import('./to-noida-CwSRdZ2E.mjs')
+    component: () => import('./to-noida-CJwMAc-p.mjs')
   },
   {
     name: "hire-south-delhi",
     path: "/hire/south-delhi",
-    component: () => import('./south-delhi-BjszXLmA.mjs')
+    component: () => import('./south-delhi-BYn8hRNd.mjs')
   },
   {
     name: "airport-to-dwarka",
     path: "/airport/to-dwarka",
-    component: () => import('./to-dwarka-DMmSS6Yl.mjs')
+    component: () => import('./to-dwarka-DT3pFEmV.mjs')
   },
   {
     name: "corporate-gurgaon",
     path: "/corporate/gurgaon",
-    component: () => import('./gurgaon-BVXnPZSY.mjs')
+    component: () => import('./gurgaon-DodKzqB8.mjs')
   },
   {
     name: "airport-from-noida",
     path: "/airport/from-noida",
-    component: () => import('./from-noida-CnU4PqMz.mjs')
+    component: () => import('./from-noida-Bb_cSZEn.mjs')
   },
   {
     name: "airport-to-gurgaon",
     path: "/airport/to-gurgaon",
-    component: () => import('./to-gurgaon-BTdKvIaG.mjs')
+    component: () => import('./to-gurgaon-DsQqJQeq.mjs')
   },
   {
     name: "corporate-aerocity",
     path: "/corporate/aerocity",
-    component: () => import('./aerocity-Dmy5yyQw.mjs')
+    component: () => import('./aerocity-DPKpdp9Y.mjs')
   },
   {
     name: "airport-from-gurgaon",
     path: "/airport/from-gurgaon",
-    component: () => import('./from-gurgaon-D9-AAKnc.mjs')
+    component: () => import('./from-gurgaon-QJedcasE.mjs')
   },
   {
     name: "airport-to-south-delhi",
     path: "/airport/to-south-delhi",
-    component: () => import('./to-south-delhi-BRIl344g.mjs')
+    component: () => import('./to-south-delhi-Bsgbkc89.mjs')
   },
   {
     name: "outstation-delhi-to-agra",
     path: "/outstation/delhi-to-agra",
-    component: () => import('./delhi-to-agra-D37u1fw2.mjs')
+    component: () => import('./delhi-to-agra-JpE0xM6u.mjs')
   },
   {
     name: "corporate-connaught-place",
     path: "/corporate/connaught-place",
-    component: () => import('./connaught-place-BsUgmNu8.mjs')
+    component: () => import('./connaught-place-Dhpmzhro.mjs')
   },
   {
     name: "events-wedding-car-rental",
     path: "/events/wedding-car-rental",
-    component: () => import('./wedding-car-rental-ayimDhoS.mjs')
+    component: () => import('./wedding-car-rental-b39luimP.mjs')
   },
   {
     name: "hire-guest-transportation",
     path: "/hire/guest-transportation",
-    component: () => import('./guest-transportation-BFyYGqe1.mjs')
+    component: () => import('./guest-transportation-Cp5rfSzN.mjs')
   },
   {
     name: "airport-to-connaught-place",
     path: "/airport/to-connaught-place",
-    component: () => import('./to-connaught-place-urXU_12r.mjs')
+    component: () => import('./to-connaught-place-mgQpVB3N.mjs')
   },
   {
     name: "outstation-delhi-to-jaipur",
     path: "/outstation/delhi-to-jaipur",
-    component: () => import('./delhi-to-jaipur-B-JGXrNW.mjs')
+    component: () => import('./delhi-to-jaipur-BFbGOqyD.mjs')
   },
   {
     name: "corporate-delhi-gurgaon-commute",
     path: "/corporate/delhi-gurgaon-commute",
-    component: () => import('./delhi-gurgaon-commute-B3UQhvGI.mjs')
+    component: () => import('./delhi-gurgaon-commute-DflYKjLR.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;

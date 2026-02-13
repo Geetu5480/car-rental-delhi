@@ -1,12 +1,12 @@
 const interopDefault = r => r.default || r || [];
 const styles = {
-  "node_modules/nuxt/dist/app/entry.js": () => import('./entry-styles.B2L5XA2s.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/entry.js": () => import('./entry-styles.Bdo2-65Q.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue": () => import('./error-404-styles.CiJjK6WX.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-500.vue": () => import('./error-500-styles.ulHNpcF1.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue?vue&type=style&index=0&scoped=1bd9e11a&lang.css": () => import('./error-404-styles.CiJjK6WX.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=a01dd0ba&lang.css": () => import('./error-500-styles.ulHNpcF1.mjs').then(interopDefault),
-  "components/LandingPage.vue": () => import('./LandingPage-styles.CdbpK297.mjs').then(interopDefault),
-  "components/LandingPage.vue?vue&type=style&index=0&scoped=57dcf640&lang.css": () => import('./LandingPage-styles.CdbpK297.mjs').then(interopDefault)
+  "components/LandingPage.vue": () => import('./LandingPage-styles.MbHffY43.mjs').then(interopDefault),
+  "components/LandingPage.vue?vue&type=style&index=0&scoped=8c19b715&lang.css": () => import('./LandingPage-styles.MbHffY43.mjs').then(interopDefault)
 };
 
 export { styles as default };

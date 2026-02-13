@@ -388,102 +388,102 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-DFgG18gF.js")
+    component: () => import("./_nuxt/index-CMo9t5gI.js")
   },
   {
     name: "hire-dwarka",
     path: "/hire/dwarka",
-    component: () => import("./_nuxt/dwarka-Bq2k6Obr.js")
+    component: () => import("./_nuxt/dwarka-Cm2Fy-pH.js")
   },
   {
     name: "airport-delhi",
     path: "/airport/delhi",
-    component: () => import("./_nuxt/delhi-BRRD-qpk.js")
+    component: () => import("./_nuxt/delhi-CAjeoPOQ.js")
   },
   {
     name: "corporate-noida",
     path: "/corporate/noida",
-    component: () => import("./_nuxt/noida-BDOR9-9q.js")
+    component: () => import("./_nuxt/noida-CdsvGbNl.js")
   },
   {
     name: "airport-to-noida",
     path: "/airport/to-noida",
-    component: () => import("./_nuxt/to-noida-CwSRdZ2E.js")
+    component: () => import("./_nuxt/to-noida-CJwMAc-p.js")
   },
   {
     name: "hire-south-delhi",
     path: "/hire/south-delhi",
-    component: () => import("./_nuxt/south-delhi-BjszXLmA.js")
+    component: () => import("./_nuxt/south-delhi-BYn8hRNd.js")
   },
   {
     name: "airport-to-dwarka",
     path: "/airport/to-dwarka",
-    component: () => import("./_nuxt/to-dwarka-DMmSS6Yl.js")
+    component: () => import("./_nuxt/to-dwarka-DT3pFEmV.js")
   },
   {
     name: "corporate-gurgaon",
     path: "/corporate/gurgaon",
-    component: () => import("./_nuxt/gurgaon-BVXnPZSY.js")
+    component: () => import("./_nuxt/gurgaon-DodKzqB8.js")
   },
   {
     name: "airport-from-noida",
     path: "/airport/from-noida",
-    component: () => import("./_nuxt/from-noida-CnU4PqMz.js")
+    component: () => import("./_nuxt/from-noida-Bb_cSZEn.js")
   },
   {
     name: "airport-to-gurgaon",
     path: "/airport/to-gurgaon",
-    component: () => import("./_nuxt/to-gurgaon-BTdKvIaG.js")
+    component: () => import("./_nuxt/to-gurgaon-DsQqJQeq.js")
   },
   {
     name: "corporate-aerocity",
     path: "/corporate/aerocity",
-    component: () => import("./_nuxt/aerocity-Dmy5yyQw.js")
+    component: () => import("./_nuxt/aerocity-DPKpdp9Y.js")
   },
   {
     name: "airport-from-gurgaon",
     path: "/airport/from-gurgaon",
-    component: () => import("./_nuxt/from-gurgaon-D9-AAKnc.js")
+    component: () => import("./_nuxt/from-gurgaon-QJedcasE.js")
   },
   {
     name: "airport-to-south-delhi",
     path: "/airport/to-south-delhi",
-    component: () => import("./_nuxt/to-south-delhi-BRIl344g.js")
+    component: () => import("./_nuxt/to-south-delhi-Bsgbkc89.js")
   },
   {
     name: "outstation-delhi-to-agra",
     path: "/outstation/delhi-to-agra",
-    component: () => import("./_nuxt/delhi-to-agra-D37u1fw2.js")
+    component: () => import("./_nuxt/delhi-to-agra-JpE0xM6u.js")
   },
   {
     name: "corporate-connaught-place",
     path: "/corporate/connaught-place",
-    component: () => import("./_nuxt/connaught-place-BsUgmNu8.js")
+    component: () => import("./_nuxt/connaught-place-Dhpmzhro.js")
   },
   {
     name: "events-wedding-car-rental",
     path: "/events/wedding-car-rental",
-    component: () => import("./_nuxt/wedding-car-rental-ayimDhoS.js")
+    component: () => import("./_nuxt/wedding-car-rental-b39luimP.js")
   },
   {
     name: "hire-guest-transportation",
     path: "/hire/guest-transportation",
-    component: () => import("./_nuxt/guest-transportation-BFyYGqe1.js")
+    component: () => import("./_nuxt/guest-transportation-Cp5rfSzN.js")
   },
   {
     name: "airport-to-connaught-place",
     path: "/airport/to-connaught-place",
-    component: () => import("./_nuxt/to-connaught-place-urXU_12r.js")
+    component: () => import("./_nuxt/to-connaught-place-mgQpVB3N.js")
   },
   {
     name: "outstation-delhi-to-jaipur",
     path: "/outstation/delhi-to-jaipur",
-    component: () => import("./_nuxt/delhi-to-jaipur-B-JGXrNW.js")
+    component: () => import("./_nuxt/delhi-to-jaipur-BFbGOqyD.js")
   },
   {
     name: "corporate-delhi-gurgaon-commute",
     path: "/corporate/delhi-gurgaon-commute",
-    component: () => import("./_nuxt/delhi-gurgaon-commute-B3UQhvGI.js")
+    component: () => import("./_nuxt/delhi-gurgaon-commute-DflYKjLR.js")
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;

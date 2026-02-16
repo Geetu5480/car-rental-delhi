@@ -61,19 +61,6 @@ export default defineNuxtConfig({
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
                         gtag('config', 'AW-17948014697');
-                        
-                        function gtag_report_conversion(url) {
-                          var callback = function () {
-                            if (typeof(url) != 'undefined') {
-                              window.location = url;
-                            }
-                          };
-                          gtag('event', 'conversion', {
-                              'send_to': 'AW-17948014697/P9Y_CIOMp_gbEOnwo-5C',
-                              'event_callback': callback
-                          });
-                          return false;
-                        }
                     `,
                 },
             ],

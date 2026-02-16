@@ -709,7 +709,8 @@ const faqs = [
   },
 ]
 
-// Generate WhatsApp link - always works, fields are optional
+// Generate WhatsApp link - redirects to thank you page for tracking
+const router = useRouter()
 const openWhatsApp = () => {
   const formattedDate = form.date
     ? new Date(form.date).toLocaleString('en-IN', {
@@ -718,22 +719,15 @@ const openWhatsApp = () => {
       })
     : ''
 
-  let message = `🚗 *Premium Sedan Booking Inquiry*\n\n`
-  
-  if (form.name) message += `👤 *Name:* ${form.name}\n`
-  if (form.pickup) message += `📍 *Pickup:* ${form.pickup}\n`
-  if (form.destination) message += `🎯 *Destination:* ${form.destination}\n`
-  if (formattedDate) message += `📅 *Date & Time:* ${formattedDate}\n`
-  
-  message += `\nPlease share availability, package options, and fare details. Thank you!`
-
-  const url = `https://wa.me/${WHATSAPP_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`
-  
-  if (typeof (window as any).gtag_report_conversion === 'function') {
-    (window as any).gtag_report_conversion()
-  }
-
-  window.open(url, '_blank')
+  router.push({
+    path: '/thank-you',
+    query: {
+      name: form.name,
+      pickup: form.pickup,
+      destination: form.destination,
+      date: formattedDate
+    }
+  })
 }
 
 // Scroll to booking section (mobile)
